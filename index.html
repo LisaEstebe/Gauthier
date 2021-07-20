@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Gauthier</title>
+        <!-- Add the slick-theme.css if you want default styling -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <!-- Add the slick-theme.css if you want default styling -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+    </head>
+    <body>
+        <div id="cadre"></div>
+
+        <!-- Page 1 -->
+        <div id="page1">
+
+            <div id="titre" class="center col1 introTxt skrollable skrollable-between" data-0="display:block;opacity:1;" data-300="display:none;opacity:0;" data-301="display:none;">
+                <h1>Bienvenu Gauthier</h1>
+            </div>
+
+            <div id="porteG"  data-0="display:block;
+    transform:translateX(0%)" data-400="transform:translateX(-100%);display:none;
+    "data-401="display:none;" class="skrollable skrollable-between">
+                <img src="photos/bois.jpg" style="width:100%;height:100%;">
+            </div>
+
+            <div id="porteD" data-0="display:block;transform:translateX(100%);" data-400="transform:translateX(200%);display:none;" data-401="display:none;" class="skrollable skrollable-between">
+                <img src="photos/bois.jpg" style="width:100%;height:100%;">
+            </div>
+        </div>
+
+        <!-- Page 2 -->
+        <div id="coucou" class="skrollable skrollable-between" data-301="display:none;opacity:0;" data-302="display:block;transform[swing]:translateY(15em); opacity:1;">
+        <div id="video" >
+            <video id="sliderVideo" autoplay loop>
+                    <source src="videos/Paul.mp4" type="video/mp4">
+                    <source src="videos/Paul.webm" type="video/webm">
+            </video>
+
+        <div class="slider">
+
+            <div class="img-div div1" onclick="videoUrl('videos/Ben.webm')"></div>
+            <div class="img-div div2" onclick="videoUrl('videos/Paul.webm')"></div>
+            <div class="img-div div3" onclick="videoUrl('videos/Jo.webm')"></div>
+            <div class="img-div div4" onclick="videoUrl('videos/Tristan.webm')"></div>
+            <div class="img-div div5" onclick="videoUrl('videos/Victoria.webm')"></div>
+            <div class="img-div div6" onclick="videoUrl('videos/Lucas.webm')"></div>
+
+        </div>
+        </div>
+
+        <footer>
+            <div id="leTexte">
+            <p>Nous ne sommes peut-être pas tous près de toi pour tes 20 ans mais nous pensons fort à toi.</p>
+            <p>Joyeux Anniversaire Gauthier !</p>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
+        <script src="https://code.jquery.com/jquery-migrate-3.3.2.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script type="text/javascript" src="skrollr.js"></script>
+        <script type="text/javascript" src="skrollr.menu.js"></script>
+        <script type="text/javascript" src="script1.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+
+    </body>
+    </html>
