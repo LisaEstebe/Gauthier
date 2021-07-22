@@ -1,5 +1,5 @@
 // redirection si le mot de passe est correct
-var mot_de_passe = '123abc';
+var mot_de_passe = 'chocolatine';
 
 document.getElementById('valider').addEventListener("click",verification);
 
