@@ -6,7 +6,7 @@ document.getElementById('valider').addEventListener("click",verification);
 function verification(){
     if((document.getElementById("mdp")).value === mot_de_passe){
         alert('Mot de passe correct !');
-        window.location = 'index.html';
+        window.location = 'page.html';
     }
 
     else{
