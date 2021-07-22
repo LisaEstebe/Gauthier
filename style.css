@@ -130,6 +130,20 @@ body{
     background-size: cover;
 }
 
+.div13{
+    background: url(photos/Colin.jpg);
+    position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div14{
+    background: url(photos/Lisa.jpg);
+    position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #cadre{
     position:fixed;
     width:100%;
